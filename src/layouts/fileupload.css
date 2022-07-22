@@ -1,0 +1,120 @@
+.fileUpload_wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh ;
+}
+.fileUpload_dropzone_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.51);
+    width: 40%;
+    height: 300px;
+    border-radius: 10px;
+      
+}
+
+.dropzon{
+     border: 1px dashed black;
+     padding: 3rem;
+}
+.fileUpload_file_custodian{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.custodian_wrapper{
+    width:90%;
+    padding:0.3rem;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.custodian_input{
+     padding:0.5rem;
+     border-top:unset;
+     border-left:unset;
+     border-right:unset;
+     background-color: #D3D3D3;
+}
+
+.custodian_input:focus {
+
+    outline: none  !important;
+}
+.custodian_button{
+     background-color: #1c8adb;
+     padding:0.5rem;
+     color : white;
+     border-radius: 4px;
+     margin-left: 1rem;
+     border:unset;
+     
+}
+.fileupload_list{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.progessList{
+    display: flex;
+    width: 90%;
+    padding:1rem;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.51);
+    margin: 0.3rem 0.2rem;
+    position: relative;
+    
+}
+
+.progress { 
+    background-color: grey;
+    height: 15px;
+    border-radius: 25px;
+   
+}
+
+.bar{
+    width: 1%;
+    height: 100%;
+    background-color: #1c8adb;
+    border-radius: 25px;
+}
+
+.progress_item_x{
+    width:30%
+
+}
+.progress_item_m{
+    width: 40%;
+}
+
+.progessButton {
+     position: absolute;
+     border-radius: 50%;
+     width:16px;
+     height: 16px;
+     top:-11%;
+     right:-4%;
+    
+}
+
+.fileupload_notifications{
+    position: absolute;
+    top:30%;
+    right:0;
+    width:350px;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1450px){
+    .fileupload_notifications{
+        top: 80%;
+        right: calc(50% - 189px) ;
+    }
+}
